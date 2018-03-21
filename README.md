@@ -19,3 +19,9 @@
 2. Open `index.html` in web browser
 
 3. Refresh browser after saving file changes to view
+
+## PubNub App Keys
+
+Publish Key: `pub-c-13130b60-72ed-449c-8285-e6199ec8378c`
+
+Subscribe Key: `pub-c-13130b60-72ed-449c-8285-e6199ec8378c`
