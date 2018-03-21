@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Shout!</title>
+	<!-- jQuery -->
+	<script
+		src="https://code.jquery.com/jquery-3.3.1.js"
+		integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+		crossorigin="anonymous"
+	></script>
+	<!-- Random Color -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/randomcolor/0.5.2/randomColor.js"></script>
+	<!-- PubNub -->
+	<script src="https://cdn.pubnub.com/sdk/javascript/pubnub.4.20.2.js"></script>
+	<!-- Material UI -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue-pink.min.css">
+	<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+	<!-- Main CSS -->
+	<link rel="stylesheet" href="main.css">
+<body>
+	<div id="container">
+		<div id="app">
+			<div id="messages">
+				<!-- 			
+				<div class="message">
+					<div class="profile">E</div>
+					<div class="text">Something Something Darkside</div>
+				</div>
+				-->
+			</div>
+			<form id="new-message" action="#">
+				<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+					<textarea class="mdl-textfield__input" type="text" rows= "4" id="message"></textarea>
+					<label class="mdl-textfield__label" for="message">What do you want to shout?</label>
+				</div>
+				<input
+					type="submit"
+					value="Shout!"
+					class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+			</form>
+		</div>
+	</div>
+	<!-- Main JS -->
+	<script src="main.js"></script>
+</body>
+</html>

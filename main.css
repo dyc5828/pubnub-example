@@ -1,0 +1,69 @@
+body {
+	background-color: #eee;
+}
+
+div#container {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div#app {
+	width: 450px;
+	height: 70vh;
+	min-height: 750px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	/*background-color: red;*/
+}
+
+div#messages {
+	width: 100%;
+	height: calc(100% - 200px);
+	overflow: auto;
+}
+
+div.message {
+	width: 100%;
+	margin: 0 0 15px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	/*background-color: orange;*/
+}
+
+div.profile {
+	width: 40px;
+	height: 40px;
+	margin: 5px 10px;
+	border-radius: 20px;
+	text-align: center;
+	vertical-align: center;
+	line-height: 40px;
+	font-size: 1.5em;
+	color: #fff;
+	background-color: #555;
+}
+
+div.text {
+	max-width: 320px;
+	padding: 20px;
+	margin: 0 10px 0 0;
+	border-radius: 25px;
+	font-size: 1.2em;
+	color: #555;
+	word-wrap: break-word;
+	background-color: white;
+}
+
+form#new-message {
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/*background-color: white;*/
+}
