@@ -24,4 +24,4 @@
 
 Publish Key: `pub-c-13130b60-72ed-449c-8285-e6199ec8378c`
 
-Subscribe Key: `pub-c-13130b60-72ed-449c-8285-e6199ec8378c`
+Subscribe Key: `sub-c-910a11ec-2ce1-11e8-86ee-1e8059ef76e6`
